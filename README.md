@@ -1,6 +1,7 @@
 # Routine app pseudocode
 
-# Method1: BruteForce
+# Method1: BruteForce 
+     * ***note: (Simple Bruteforce is Not feasible: assuming 1000 searches per second would take around 10^34 years to complete)***
     * Find all the valid classes for a teacher
     * iterate over all possible routines
     * check if the routine is valid :: no two classes of same teacher at the same time unless merged
