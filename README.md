@@ -29,3 +29,16 @@
       * Teacher Merged: n teachers per class at the same time
       * Class Merged: n classes per teacher  at the same time
 
+# Note:
+    - subject has: student, teacher, course_name
+    - before finalizing: replace time with datetime in seconds so that whole syllabus can be covered
+    - some subjects like elective-I has special subject time (6:00 - 10:00)
+# Todo:
+    * give unique id to each teacher instead of using name as unique identifier
+    * give seperate folder to each class
+    * gene1:classroom.time generated (random, mutation, crossover, ...) from sample space of teacher.feasible_time
+    * 
+    * check colliding routine for same teacher for multiple classes
+    * fixed number of classes for students and teachers for 
+# Errors
+    * teachers[0].feasible_time is changing after running generating code. why?
